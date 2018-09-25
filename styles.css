@@ -14,10 +14,16 @@ body {
 p {
     text-align: center;
     color: white;
+    font-family: OstrichSans-Black;
 }
 
 h1 {
     text-align: center;
     font-family: OstrichSans-Black;
     color: white;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1px;
 }
