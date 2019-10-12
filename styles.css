@@ -4,7 +4,32 @@
 }
 body {
     background: #2b4472;
+    margin: 0;
 }
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+ }
+
+nav * {
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    font-family: OstrichSans-Black;
+}
+
+nav li {
+    text-decoration: none;
+    text-align: center;
+    margin: .5em;
+    padding: 1em;
+    padding-top: 2em;
+    font-size: 1em;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
