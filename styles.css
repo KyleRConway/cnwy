@@ -2,6 +2,9 @@
     font-family: "OstrichSans-Black";
     src: url(./OstrichSans-Black.otf) format("opentype");
 }
+
+
+
 body {
     background: #2b4472;
     margin: 0;
@@ -33,7 +36,8 @@ nav li {
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 33.33%;
+    height: auto;
     display: block;
 }
 p {
