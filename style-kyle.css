@@ -8,7 +8,7 @@
 body {
     display: grid;
     grid-gap: 1em;
-    background: #222222;
+    background: #d6c2a7;
     grid-template-rows: auto, auto, 1fr, auto;
     min-height: 100vh;
     margin: 0;
@@ -25,13 +25,13 @@ article {
 
 h3 {
     text-align: center;
-    color: white;
+    color: #d6c2a7;
     font-family: OstrichSans-Black;
 }
 
 section {
     display: grid;
-    background: #111111;
+    background: #53432b;
     border-radius: 1em;
     grid-gap: 1em;
     min-height: 20vh;
@@ -47,7 +47,7 @@ nav {
 nav * {
     display: inline;
     vertical-align: middle;
-    color: white;
+    color: black;
     font-family: OstrichSans-Black;
 }
 
@@ -63,7 +63,7 @@ nav li {
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 33.33%;
+    width: 20%;
     height: auto;
     display: block;
 }
@@ -71,6 +71,7 @@ p {
     text-align: center;
     color: white;
     font-family: OstrichSans-Black;
+        padding: 0 2em 0 2em;
 }
 
 h1 {

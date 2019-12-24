@@ -1,0 +1,83 @@
+    src: url(./OstrichSans-Black.otf) format("opentype");
+}
+
+
+
+body {
+    display: grid;
+    grid-gap: 1em;
+    background: black;
+    grid-template-rows: auto, auto, 1fr, auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+article {
+    display: grid;
+    padding-left: 5em;
+    padding-right: 5em;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: OstrichSans-Black;
+}
+
+section {
+    display: grid;
+    background: #006cab;
+    border-radius: 15px;
+    grid-gap: 1em;
+    min-height: 20vh;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+ }
+
+nav * {
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    font-family: OstrichSans-Black;
+}
+
+nav li {
+    text-decoration: none;
+    text-align: center;
+    margin: .5em;
+    padding: 1em;
+    padding-top: 2em;
+    font-size: 1em;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.33%;
+    height: auto;
+    display: block;
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: OstrichSans-Black;
+}
+
+h1 {
+    text-align: center;
+    font-family: OstrichSans-Black;
+    color: white;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1px;
+}
